@@ -11,9 +11,9 @@ export default function About() {
             apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+          Full Stack Web Developer with background Import-Export that provide a wide
+           perspective of business user experince on application/websites.
+           Highly skilled in communication, collaboration, time management and conflict resolution.
           </p>
           <div className="flex justify-center">
             <a
