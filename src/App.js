@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 
+
 function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
