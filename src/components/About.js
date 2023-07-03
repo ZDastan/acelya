@@ -29,7 +29,7 @@ export default function About() {
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-         
+        <img className="rounded-md" src="./images/example-image.png" alt="ZD Logo"  />
         </div>
       </div>
     </section>

@@ -4,11 +4,11 @@ export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
   return (<div>
-      <nav className="bg-white border-gray-200 dark:bg-gray-900 fixed top-0 left-0 right-0 z-10">
+      <nav className="bg-white border-gray-200 fixed top-0 left-0 right-0 z-10">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <p class="flex items-center">
-    <img class="h-8 mr-3" src="./images/zd.png" alt="ZD Logo"  />
-    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white" href="#about">Portfolio</span>  
+        <p className="flex items-center">
+   
+    <span className="self-center text-2xl font-signature whitespace-nowrap color: rgb(0 0 0);" href="#about">ZD Portfolio</span>  
     </p>
         <section className="MOBILE-MENU flex lg:hidden">
           <div
@@ -40,16 +40,16 @@ export default function Header() {
             </div>
             <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a onClick={() => setIsNavOpen(false)} href="#about" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                <a onClick={() => setIsNavOpen(false)} href="#about" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a onClick={() => setIsNavOpen(false)} href="#skills" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Skills</a>
+                <a onClick={() => setIsNavOpen(false)} href="#skills" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Skills</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a onClick={() => setIsNavOpen(false)} href="#projects" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
+                <a onClick={() => setIsNavOpen(false)} href="#projects" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a onClick={() => setIsNavOpen(false)} href="#contact" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                <a onClick={() => setIsNavOpen(false)} href="#contact" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
               </li>
             </ul>
           </div>

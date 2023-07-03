@@ -5,9 +5,13 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      signature:["Great Vibes"],
+    },
   },
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+    "@babel/plugin-transform-private-property-in-object"
   ],
 }
 
