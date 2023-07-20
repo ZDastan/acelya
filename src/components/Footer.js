@@ -20,7 +20,7 @@ export default function Footer() {
                           <a href="https://github.com/ZDastan" class="hover:underline ">GitHub</a>
                       </li>
                       <li class="mb-4">
-                          <a href="www.linkedin.com/in/zehra-dastan-kohansal-b8969060" class="hover:underline">Linkedln</a>
+                          <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" class="hover:underline">Linkedln</a>
                           
                       </li>
                       <li>
