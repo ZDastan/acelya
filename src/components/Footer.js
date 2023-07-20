@@ -20,11 +20,11 @@ export default function Footer() {
                           <a href="https://github.com/ZDastan" class="hover:underline ">GitHub</a>
                       </li>
                       <li class="mb-4">
-                          <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Linkedln</a>
+                          <a href="www.linkedin.com/in/zehra-dastan-kohansal-b8969060" class="hover:underline">Linkedln</a>
                           
                       </li>
                       <li>
-                          <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Indeed</a>
+                          <a href="https://profile.indeed.com/p/zehrad-5dbt85o" class="hover:underline">Indeed</a>
                       </li>
                   </ul>
               </div>
